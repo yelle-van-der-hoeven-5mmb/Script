@@ -1,0 +1,11 @@
+/* instelling vormgeving*/
+
+body {background-color: grey;}
+
+.flex-container {
+    display: flex;
+}
+
+header nav li { 
+
+}
