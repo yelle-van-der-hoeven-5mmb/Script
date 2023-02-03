@@ -1,4 +1,7 @@
 /* instelling vormgeving*/
+*{margin: 0;
+box-sizing: border-box;
+padding: 0;}
 
 body {background-color: grey;}
 
@@ -13,4 +16,12 @@ header nav li {
 header img{
 width: 50px;
 margin: 15px;
+}
+
+i{
+    margin: 0.5rem;
+}
+
+nav a{
+    text-decoration: none;
 }
