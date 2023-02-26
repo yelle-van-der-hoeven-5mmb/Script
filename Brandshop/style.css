@@ -1,27 +1,76 @@
 /* instelling vormgeving*/
-*{margin: 0;
-box-sizing: border-box;
-padding: 0;}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
 
-body {background-color: grey;}
+body {
+    background-color: white
+;
+}
 
 .flex-container {
     display: flex;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
 }
 
-header nav li { 
+header nav li {}
 
+header img {
+    width: 50px;
+    margin: 15px;
 }
 
-header img{
-width: 50px;
-margin: 15px;
-}
-
-i{
+i {
     margin: 0.5rem;
 }
 
-nav a{
+nav a {
     text-decoration: none;
+}
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 100vh;
+}
+
+video {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.flex-item {
+    flex: 1;
+    margin: auto;
+    padding: 1.5cm;
+}
+figure {
+    position: relative;
+    margin-top: 10cm;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
+
+.bgc-highlights {
+    background-color: #ffeeddd;
+}
+
+.bgd-joinus {
+    background-image: url("static/img/joinus.webp");
+    background-size: cover;
+    background-position: right;
 }
