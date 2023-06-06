@@ -59,6 +59,7 @@ footer {
     padding: 20px;
     background-color: #EBF82B;
     color: #333;
+    
   }
   
   .grid h3 {
@@ -133,4 +134,13 @@ footer {
     object-fit: cover;
     width: 90%;
     height: 150px
+  }
+
+  footer i {
+    font-size: larger;
+  }
+
+  footer a {
+    color: black;
+
   }
