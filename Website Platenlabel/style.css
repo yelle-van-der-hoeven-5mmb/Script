@@ -208,6 +208,4 @@ header label[for="burger"] i {
         display: flex;
         flex-direction: column;
     }
-    @media (width <=750px) {
-    
-      }
+  }
